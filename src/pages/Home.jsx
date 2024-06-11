@@ -3,6 +3,7 @@ import { useState } from "react";
 import MonthNavigation from "../components/MonthNavigation";
 import ExpenseList from "../components/ExpenseList";
 import CreateExpense from "../components/CreateExpense";
+import Header from "../components/Header";
 
 const Container = styled.main`
   max-width: 800px;
@@ -28,6 +29,7 @@ export default function Home({ expenses, setExpenses }) {
 
   return (
     <Container>
+      <Header />
       <MonthNavigation month={month} setMonth={setMonth} />
       <CreateExpense
         month={month}

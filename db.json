@@ -1,0 +1,28 @@
+{
+  "todos": [
+    {
+      "id": 1,
+      "month": 1,
+      "date": "2024-01-05",
+      "item": "식비",
+      "amount": 100000,
+      "description": "세광양대창"
+    },
+    {
+      "id": 2,
+      "month": 1,
+      "date": "2024-01-10",
+      "item": "도서",
+      "amount": 40500,
+      "description": "모던 자바스크립트"
+    },
+    {
+      "id": 3,
+      "month": 2,
+      "date": "2024-02-02",
+      "item": "식비",
+      "amount": 50000,
+      "description": "회식"
+    }
+  ]
+}
